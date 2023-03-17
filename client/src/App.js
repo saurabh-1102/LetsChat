@@ -3,8 +3,7 @@ import io from 'socket.io-client'
 import {useState} from 'react';
 import Chat from './Chat';
 
-const socket = io.connect("https://chaton-abhinav.herokuapp.com");
-
+const socket = io.connect("http://localhost:3001");
 function App() {
 
   const [username , setUsername] = useState("");
@@ -24,7 +23,7 @@ function App() {
     <div className="App">
         { !showChat ? (
       <div className='joinChatContainer'>
-            <h3><strong>CHATON</strong></h3>
+            <h3><strong>LetsChat</strong></h3>
           <input type = "text" placeholder = "NAME.." onChange={(event) =>{
             setUsername(event.target.value);
           }}

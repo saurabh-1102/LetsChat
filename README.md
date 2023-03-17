@@ -1,6 +1,6 @@
 
 
-# ChatOn
+# LetsChat
   This application is built using Socket.io and ReactJs.
   
   ![s2](WebsiteDemo.png)
@@ -17,8 +17,7 @@
 Make sure you have Node.js and npm install.
 
   1. Clone or Download the repository 
-    <pre>git clone https://github.com/abhinav-8/Chat-App.git
-     Change [client/src/App.js/Line 6](https://github.com/abhinav-8/Chat-App/blob/0964a109b6b8fcece66cf5e5350366ba7fe633d2/client/src/App.js#L6) to "const socket = io.connect("http://localhost:3001");" to run server locally on port 3001</pre>
+    <pre>git clone https://github.com/saurabh-1102/LetsChat.git
   2. Install Dependencies and run server
       <pre>$cd server       
      $npm install
@@ -38,7 +37,6 @@ Make sure you have Node.js and npm install.
    
    If multiple users try to join in the same room with same username,the user who joins first would be in and others would not be able to send or receive message in that room.
    
-   ChatOn's backend is deployed on heroku and front-end on netlify. Live Link : https://webchaton.netlify.app/
    
    
     
